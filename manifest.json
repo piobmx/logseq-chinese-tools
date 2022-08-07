@@ -1,0 +1,8 @@
+{
+    "title": "Logseq Chinese Tools",
+    "description": "This Logseq plugin includes converting simplified/traditional Chinese, and adding chinese aliases to a page" ,
+    "author": "Chang-I Ng",
+    "repo":"pengx17/logseq-dev-theme",
+    "icon": "public/wen.png",
+    "theme": false
+  }
