@@ -36,21 +36,6 @@ function convertText(inputText: String, mode: String) {
 const main = async () => {
   logseq.UI.showMsg("Starting...")
 
-  logseq.Editor.registerBlockContextMenuItem("Clear Properties", async (e) => {
-    const pageBlocksTree = await logseq.Editor.getCurrentPageBlocksTree()
-    const targetBlock = pageBlocksTree[0]
-    const targetBlockContent = targetBlock.content
-    const targetBlockUUID = targetBlock.uuid
-    const pageProperties = await logseq.Editor.getBlockProperties(targetBlockUUID)
-  })
-
-  logseq.Editor.registerSlashCommand("Log Properties", async () => {
-    const pageBlocksTree = await logseq.Editor.getCurrentPageBlocksTree()
-    const targetBlock = pageBlocksTree[0]
-    const targetBlockUUID = targetBlock.uuid
-    const pageProperties = await logseq.Editor.getBlockProperties(targetBlockUUID)
-  })
-
   logseq.Editor.registerSlashCommand("Convert To Traditional Chinese", async (e) => {
     const currentBlock = await logseq.Editor.getCurrentBlock()
     const currentBlockUUID = currentBlock!.uuid
