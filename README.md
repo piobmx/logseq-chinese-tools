@@ -7,7 +7,6 @@ These can be done using simple slash commands, here are some demostrations:
 
 ![Adding Aliases](aliases.gif)
 
-
 You can convert the content of a single block from simplified Chinese to Traditional Chinese by `/Convert To Simplified Chinese`, and vice versa by `/Convert To Traditional Chinese`. 
 `/Chinese Alias` command adds Chinese variants aliases to you current page. 
 
