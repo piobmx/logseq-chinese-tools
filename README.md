@@ -10,7 +10,5 @@ These can be done using simple slash commands, here are some demostrations:
 You can convert the content of a single block from simplified Chinese to Traditional Chinese by calling `/Convert To Simplified Chinese`, and vice versa by `/Convert To Traditional Chinese`. 
 `/Chinese Alias` command adds Chinese variants aliases to you current page. 
 
-This plugin is useful when working 
-
 The functionality of this plugin is mostly powered by [opencc](https://github.com/nk2028/opencc-js). More functions regarding Chinese environments are on the way. 
 
